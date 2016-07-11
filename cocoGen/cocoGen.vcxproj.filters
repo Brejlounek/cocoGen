@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\evolution">
+      <UniqueIdentifier>{937105b0-50d3-4164-b6ae-3e6f9237eb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\evolution">
+      <UniqueIdentifier>{a6793e12-5148-432a-a398-9b5fb4d6165d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Evolution.h">
+      <Filter>Header Files\evolution</Filter>
+    </ClInclude>
+    <ClInclude Include="Individual.h">
+      <Filter>Header Files\evolution</Filter>
+    </ClInclude>
+    <ClInclude Include="CocoInd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CocoEvo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FacCocoEvo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FacCocoInd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Evolution.cpp">
+      <Filter>Source Files\evolution</Filter>
+    </ClCompile>
+    <ClCompile Include="CocoInd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CocoEvo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FacCocoEvo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FacCocoInd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

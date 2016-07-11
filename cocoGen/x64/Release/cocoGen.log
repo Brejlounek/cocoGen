@@ -1,0 +1,11 @@
+﻿  Source.cpp
+e:\4git\cocogen\cocogen\CocoEvo.h(7): warning C4005: 'POPSIZE' : macro redefinition
+          e:\4git\cocogen\cocogen\Individual.h(19) : see previous definition of 'POPSIZE'
+e:\4git\cocogen\cocogen\CocoEvo.h(11): warning C4005: 'CROSS_RATE' : macro redefinition
+          e:\4git\cocogen\cocogen\Evolution.h(16) : see previous definition of 'CROSS_RATE'
+e:\4git\cocogen\cocogen\FacCocoInd.h(6): warning C4005: 'MUTATE_RATIO' : macro redefinition
+          e:\4git\cocogen\cocogen\CocoInd.h(6) : see previous definition of 'MUTATE_RATIO'
+Source.cpp(8): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  Finished generating code
+  cocoGen.vcxproj -> E:\4git\cocoGen\cocoGen\x64\Release\cocoGen.exe.exe
